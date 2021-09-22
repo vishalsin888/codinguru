@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Free Register Here</title>
+  </head>
+
+  <style>
+      .divider{
+          position: relative;
+          text-align: center;
+      }
+
+      .divider span{
+          padding: 8px;
+          position: relative;
+          z-index: 5;
+      }
+      .divider::after{
+          content: "";
+          position: absolute;
+          width: 100%;
+          border-bottom: 1.5px solid rgb(170, 161, 161);
+          top: 50%;
+          left: 0;
+          z-index: 1;
+      }
+  </style>
+  <body>
+
+    <!-- coding area  -->
+    <div class="container">
+
+        <div class="card bg-light text-center">
+            <div class="card-body mx-auto">
+                <h4 class="card-title text-center my-4">Create Account</h4>
+                <p>Get Started with Free Registration with Us</p>
+
+                <a href="" class="btn btn-block btn-danger">
+                    <i class="fab fa-google mr-2"></i>
+                    Login with Google</a>
+                <a href="" class="btn btn-block btn-primary">
+                    <i class="fab fa-facebook-f mr-2"></i>
+                    Login with Facebook</a>
+
+                <p class="divider mt-3 bg-light">
+                    <span class="bg-light">
+                    OR
+                    </span>
+                </p>
+
+                <!-- form  -->
+                <form action="">
+
+                    <!-- username  -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-user"></i></div>
+                          </div>
+                        <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+
+                    <!-- email  -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                          </div>
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                    </div>
+
+                    <!-- phone  -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-phone"></i></div>
+                          </div>
+                        <select class="custom-sel" style="max-width: 80px;border-radius: 3px; border-color: rgb(207, 191, 191);">
+                            <option value="">+91</option>
+                            <option value="">+92</option>
+                            <option value="">+93</option>
+                            <option value="">+94</option>
+                        </select>
+                        <input type="number" class="form-control" placeholder="Enter Mobile No">
+                    </div>
+
+                    <!-- role  -->
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-building"></i></div>
+                          </div>
+                          <select class="form-control">
+                            <option value="" selected disabled>-- Please Select --</option>
+                            <option value="">Teacher</option>
+                            <option value="">Admin</option>
+                            <option value="">Normal</option>
+                            <option value="">Principal</option>
+                        </select>
+                    </div>
+
+                     <!-- password  -->
+                     <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                          </div>
+                        <input type="password" class="form-control" placeholder="Enter Password">
+                    </div>
+                    
+                     <!-- repeat password  -->
+                     <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-unlock"></i></div>
+                          </div>
+                        <input type="password" class="form-control" placeholder="Enter Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-block btn-success my-4">Create Account</button>
+
+                    <p>Already Have Account ? <a href="login.html">Log In</a></p>
+                    
+                </form>
+
+                <!-- form ends -->
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- coding area ends -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
