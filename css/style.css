@@ -37,13 +37,9 @@ body{
 }
 .navbar{
     z-index: 9;
-    box-shadow: 0 0 0 rgb(202, 147, 147);
-    border-bottom: 1px solid rgb(245, 143, 143);
+    box-shadow: 1px 1px 4px 0px rgb(183 157 157);
+    border-bottom: 1px solid rgb(93 84 84 / 30%);
 }
 .header_links li a:hover{
     color:#f3690d !important;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ce865dab2f8c9237a8b08902e8a07da36fb4706f
