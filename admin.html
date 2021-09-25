@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Old+Standard+TT:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="css/products.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="bootstrap-wrapper">
+        <div class="container-fluid">
+            <div class="row py-2">
+                <div class="col-md-3">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="py-3">Admin Panel</h5>
+                                <div class="container my-3" id="AdminInfo">
+                                    <a class="btn btn-secondary" data-toggle="collapse" href="#collapseAdminInfo" role="button" aria-expanded="true" aria-controls="collapseAdminInfo">Admin Info</a>
+                                </div>
+                                <div class="container my-3" id="AllProductsInfo">
+                                    <a class="btn btn-info" data-toggle="collapse" href="#collapseAllProducts" role="button" aria-expanded="false" aria-controls="collapseAllProducts">All Products</a>
+                                </div>
+                                <div class="container my-3" id="ProductInfo">
+                                    <a class="btn btn-info" data-toggle="collapse" href="#collapseProduct" role="button" aria-expanded="false" aria-controls="collapseProduct">
+                                        Add Product
+                                    </a>
+                                </div>
+                                <div class="container my-3">
+                                    <a class="btn btn-danger" href="index.html">Logout</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9" id="cardsInfo">
+                    <div class="card bg-light">
+                        <div class="card-body collapse" id="collapseProduct" aria-labelledby="ProductInfo" data-parent="#cardsInfo">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="card bg-light my-1">
+                                        <div class="card-body mx-auto">
+                                            <h4 class="card-title text-center my-3">Add New Product</h4>
+                                            <form action="">
+                            
+                                                <!-- prod name  -->
+                                                <div class="form-group input-group">
+                                                    <input type="text" class="form-control" placeholder="Product Name">
+                                                </div>
+
+                                                <!-- prod description  -->
+                                                <div class="form-group input-group mb-4">
+                                                    <input type="password" class="form-control" placeholder="Product Description">
+                                                </div>
+                                                <!-- prod category  -->
+                                                <div class="form-group input-group mb-4">
+                                                  
+                                                    <input type="password" class="form-control" placeholder="Product Category">
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <div class="custom-file">
+                                                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                                      <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                                    </div>
+                                                    <div class="input-group-append">
+                                                      <span class="input-group-text ml-2" id="" >Upload</span>
+                                                    </div>
+                                                </div>
+                            
+                                               <div class="container text-center">
+                                                    <button class="btn btn-primary"> Add Product </button>
+                                                
+                                               </div>
+                                            </form>
+                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body collapse show" id="collapseAdminInfo" aria-labelledby="AdminInfo" data-parent="#cardsInfo">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="card bg-light my-1">
+                                        <div class="card-body mx-auto">
+                                            <h4 class="card-title text-center my-3"> Admin Details </h4>
+                                            
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body collapse" id="collapseAllProducts" aria-labelledby="AllProductsInfo" data-parent="#cardsInfo">
+                            <h5>Product Details</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/m1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/l1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/fr1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/m2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/l2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/fr2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="card my-3" style="width: 19rem;">
+                                        <img class="card-img-top" src="./img/ac1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Product 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
