@@ -5,3 +5,19 @@
     margin: auto;
     text-align: center;
 }
+.table-bordered tr th {
+    width: 30%;
+ margin-right: 20px;
+ text-align: center;
+}
+.table-bordered tr td {
+    width: 50%;
+ margin-right: 20px;
+ text-align: center;
+}
+
+.admin_img{
+    border-radius: 50%;
+    width: 20%;
+    height: 25%;
+}
