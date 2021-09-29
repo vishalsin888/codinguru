@@ -55,10 +55,18 @@
   .header{
        background-position: top;
     }
+
 }
+
+/* moto g2 galaxy */
 @media screen and (max-width: 360px) and (max-width: 420px) {
   /* For mobile phones: */
     .home_pg img{
         width: 175px;
+    }
+    #home_page p{
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
 }
