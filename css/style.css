@@ -1,7 +1,3 @@
-body{
-    font-family: "Catamaran", sans-serif;
-    font-family: "Old Standard TT", serif;
-}
 
 .header{
     height : 80vh;
@@ -10,7 +6,6 @@ body{
     background: linear-gradient(to right, rgba(34, 57, 187, 0.9), rgba(170, 97, 97, 0.5)),
          url(https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
     background-size: cover;     
-
 }
 .h-100{
     height: 100%;
@@ -28,7 +23,6 @@ body{
     padding: 2rem;
 }
 .conts{
-
     font-size: 3rem;
 }
 .ppl-about-us{
@@ -48,12 +42,23 @@ body{
 }
 
 .nav-item .nav-link{
-    color: black;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.home_pg img{
+    width: 250px;
 }
 
 @media screen and (min-width: 360px) and (min-width: 420px), (max-width: 768px) {
   /* For mobile phones: */
   .header{
        background-position: top;
+    }
+}
+@media screen and (max-width: 360px) and (max-width: 420px) {
+  /* For mobile phones: */
+    .home_pg img{
+        width: 175px;
     }
 }
