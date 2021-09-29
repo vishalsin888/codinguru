@@ -1,7 +1,6 @@
 body{
     font-family: "Catamaran", sans-serif;
     font-family: "Old Standard TT", serif;
-
 }
 
 .header{
@@ -41,11 +40,15 @@ body{
     border-bottom: 1px solid rgb(93 84 84 / 30%);
 }
 .header_links li a:hover{
-    color:#f3690d !important;
+    color:#a90b0c !important;
 }
 .card-body:hover{
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.nav-item .nav-link{
+    color: black;
 }
 
 @media screen and (min-width: 360px) and (min-width: 420px), (max-width: 768px) {

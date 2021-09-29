@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Old+Standard+TT:wght@700&display=swap"
+    rel="stylesheet"
+  />
     <!-- Bootstrap CSS -->
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,8 +17,13 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <title>Login Here</title>
+      <title>QuickXpertInfotech | Login Here</title>
       <style>
+
+        body{
+            font-family: "Catamaran", sans-serif;
+            font-family: "Old Standard TT", serif;
+        }
         .divider{
             position: relative;
             text-align: center;
@@ -41,13 +50,59 @@
             font-size: 36px;
             color: #a90b0c;
         }
+        .login_nav{
+            z-index: 99;
+            box-shadow: 1px 1px 4px 0px rgb(183 157 157);
+            border-bottom: 1px solid rgb(93 84 84 / 30%);
+        }
+        .nav-item .nav-link{
+            color: rgba(0, 0, 0, 0.815) !important;
+        }
+
+        .header_links li a:hover{
+            color:#a90b0c !important;
+        }
     </style>
   </head>
   <body>
     
     <!-- login page  -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- nav bar  -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white login_nav position-fixed w-100">
+                <div class="container-fluid mx-3">
+                <a class="nav-link navbar-brand mx-3 mt-2 home_pg" href="index.html" ><img src="./img/qx.jpg" alt="logo" style="width: 260px;" height="45"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto header_links">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="index.html"
+                              >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        <!-- nav bar ends  -->  
+        </div>
+    </div>
 
-    <div class="container py-2">
+    <div class="container py-5 my-5">
         <!-- <div class="row">
             <a href="https://vishalsin888.github.io/codinguru/"><i class="fa-solid fa-caret-left"></i></a>
         </div>  -->

@@ -10,7 +10,10 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
     crossorigin="anonymous"
   />
-
+  <link
+  href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Old+Standard+TT:wght@700&display=swap"
+  rel="stylesheet"
+/>
   <link
     href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Old+Standard+TT:wght@700&display=swap"
     rel="stylesheet"
@@ -18,12 +21,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
   crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/products.css" />
-    <title>Document</title>
+    <title>QuickXpertInfotech | Admin</title>
 </head>
 <body>
     <div class="bootstrap-wrapper">
-        <div class="container-fluid">
-            <div class="row py-2">
+        <div class="container-fluid">  
+            <div class="row">
+                <!-- nav bar  -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-white admin_nav position-fixed w-100">
+                    <div class="container-fluid mx-3">
+                    <a class="nav-link navbar-brand mx-3 mt-2 home_pg" href="index.html" ><img src="./img/qx.jpg" alt="logo" style="width: 260px;" height="45"></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto header_links">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="admin.html"
+                                  >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            <!-- nav bar ends  -->  
+            </div>
+            <div class="row py-5 my-5">
                 <div class="col-md-3">
                     <div class="card bg-light">
                         <div class="card-body">
@@ -131,7 +166,9 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/m1.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/m1.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 1</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,7 +183,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 2</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,7 +200,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/l1.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/l1.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 3</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -178,7 +219,9 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/fr1.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/fr1.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 1</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -193,7 +236,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/m2.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/m2.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 2</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -208,7 +253,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/t2.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 3</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -225,7 +272,9 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/l2.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/l2.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 1</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -240,7 +289,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/fr2.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/fr2.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 2</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -255,7 +306,9 @@
                                         </div>
                                     </div>
                                     <div class="card my-3">
-                                        <img class="card-img-top" src="./img/ac1.jpg" alt="Card image cap">
+                                        <div class="container text-center">
+                                            <img class="card-img-top" src="./img/ac1.jpg" alt="Card image cap">
+                                        </div>
                                         <div class="card-body">
                                         <h5 class="card-title">Product 3</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
